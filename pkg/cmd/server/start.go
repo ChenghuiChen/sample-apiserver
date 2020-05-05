@@ -31,10 +31,10 @@ import (
 	genericapiserver "k8s.io/apiserver/pkg/server"
 	genericoptions "k8s.io/apiserver/pkg/server/options"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	"k8s.io/sample-apiserver/pkg/apis/wardle/v1alpha1"
+	"github.com/ChenghuiChen/sample-apiserver/pkg/apis/wardle/v1alpha1"
 	"github.com/ChenghuiChen/sample-apiserver/pkg/apiserver"
-	informers "k8s.io/sample-apiserver/pkg/generated/informers/externalversions"
-	sampleopenapi "k8s.io/sample-apiserver/pkg/generated/openapi"
+	informers "github.com/ChenghuiChen/sample-apiserver/pkg/generated/informers/externalversions"
+	sampleopenapi "github.com/ChenghuiChen/sample-apiserver/pkg/generated/openapi"
 )
 
 const defaultEtcdPathPrefix = "/registry/wardle.example.com"

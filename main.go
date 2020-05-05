@@ -24,7 +24,7 @@ import (
 
 	genericapiserver "k8s.io/apiserver/pkg/server"
 	"k8s.io/component-base/logs"
-	"k8s.io/sample-apiserver/pkg/cmd/server"
+	"github.com/ChenghuiChen/sample-apiserver/pkg/cmd/server"
 )
 
 func main() {

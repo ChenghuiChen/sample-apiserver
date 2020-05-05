@@ -1,5 +1,5 @@
 {
-	"ImportPath": "k8s.io/sample-apiserver",
+	"ImportPath": "github.com/ChenghuiChen/sample-apiserver",
 	"GoVersion": "unknown",
 	"GodepVersion": "gen-godeps",
 	"Packages": [
