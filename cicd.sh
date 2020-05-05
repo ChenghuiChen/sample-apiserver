@@ -1,6 +1,6 @@
 set -x
 
-docker save kube-sample-apiserver:2.0 -o ext-server.tar
+docker save kube-sample-apiserver:3.0 -o ext-server.tar
 
 scp ext-server.tar mzone:~
 

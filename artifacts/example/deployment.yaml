@@ -18,10 +18,6 @@ spec:
       serviceAccountName: apiserver
       containers:
       - name: wardle-server
-        # build from staging/src/github.com/ChenghuiChen/sample-apiserver/artifacts/simple-image/Dockerfile
-        # or
-        # docker pull gcr.io/kubernetes-e2e-test-images/sample-apiserver:1.17
-        # docker tag gcr.io/kubernetes-e2e-test-images/sample-apiserver:1.17 kube-sample-apiserver:latest
         image: kube-sample-apiserver:latest
         imagePullPolicy: Never
         args: [ "--etcd-servers=http://localhost:2379" ]
